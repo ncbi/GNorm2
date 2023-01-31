@@ -1,11 +1,6 @@
 # GNorm2
 ***
-GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage.
-
-
-## Download GNorm2
-
-please download [GNorm2](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz)
+GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage. [Download GNorm2]((https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz))
 
 ## Content
 - [Dependency package](#package)
@@ -14,7 +9,7 @@ please download [GNorm2](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTool
 
 ## Dependency package
 <a name="package"></a>
-The codes have been tested using Python3.8 on CentOS and uses the following main dependencies on a CPU and GPU:
+The codes have been tested using Python3.8/3.9 on CentOS and uses the following main dependencies on a CPU and GPU:
 - [TensorFlow 2.3.0](https://www.tensorflow.org/)
 - [Transformer 4.18.0](https://huggingface.co/docs/transformers/installation)
 - [stanza 1.4.0](stanfordnlp.github.io/stanza/)
@@ -26,7 +21,7 @@ To install all dependencies automatically using the command:
 
 ## Introduction of folders
 <a name="intro"></a>
-
+[Download GNorm2]((https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz))
 - src_python
 	- GeneNER: the codes for gene recognition
 	- SpeAss: the codes for species assignment
