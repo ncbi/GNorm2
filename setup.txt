@@ -1,0 +1,33 @@
+#===Annotation
+#Attribution setting:
+#FocusSpecies = Taxonomy ID
+#	All: All species
+#	9606: Human
+#	4932: yeast
+#	7227: Fly
+#	10090: Mouse
+#	10116: Rat
+#	7955: Zebrafish
+#	3702: Arabidopsis thaliana
+#open: True
+#close: False
+
+[Focus Species]
+	FocusSpecies = All
+	FilterAntibody = True
+[Dictionary & Model]
+	DictionaryFolder = Dictionary
+	GNRModel = Dictionary/GNR.Model
+	SCModel = Dictionary/SimConcept.Model
+[Modules]
+	SpeciesRecognition = False
+	GeneRecognition = True
+	SpeciesAssignment = False
+	GeneNormalization = False
+[Others]
+	GeneIDMatch = False
+	Normalization2Protein = False
+	ShowUnNormalizedMention = False
+	HomologeneID = False
+	tmpFolder = tmp
+	DeleteTmp = True
