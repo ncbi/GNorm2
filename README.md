@@ -21,7 +21,7 @@ To install all dependencies automatically using the command:
 
 ## Introduction of folders
 <a name="intro"></a>
-[Download GNorm2](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz)
+
 - src_python
 	- GeneNER: the codes for gene recognition
 	- SpeAss: the codes for species assignment
@@ -51,7 +51,8 @@ To install all dependencies automatically using the command:
 
 ## Running GNorm2
 <a name="pipeline"></a>
-Use our trained models (i.e., PubmedBERT/Bioformer) for running Gene NER and Species Assignment.
+Please firstly download [GNorm2](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz) to your local.
+Below are the well-trained models (i.e., PubmedBERT/Bioformer) for Gene NER and Species Assignment.
 Models for Gene NER:
 - gnorm_trained_models/geneNER/GeneNER-PubmedBERT.h5
 - gnorm_trained_models/geneNER/GeneNER-Bioformer.h5
@@ -59,18 +60,18 @@ Models for Species Assignment:
 - gnorm_trained_models/SpeAss/SpeAss-PubmedBERT.h5
 - gnorm_trained_models/SpeAss/SpeAss-Bioformer.h5
 
-The parameters to assign input/output folders:
+The parameters of the input/output folders:
 
 - INPUT, default="input"
 - OUTPUT, default="output"
 
-[BioC(xml)](bioc.sourceforge.net) or [PubTator](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/Format.html) formats are both avaliabel to GNorm2.
+[BioC-XML](bioc.sourceforge.net) or [PubTator](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/Format.html) formats are both avaliabel to GNorm2.
 
 1. Run GNorm2
 
 Run Example:
 
-    $ GNorm2.sh input output
+    $ ./GNorm2.sh input output
 
 ## Acknowledgments
 This research was supported by the Intramural Research Program of the National Library of Medicine (NLM), National Institutes of Health.
