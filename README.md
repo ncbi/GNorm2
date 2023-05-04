@@ -53,9 +53,11 @@ To install all dependencies automatically using the command:
 <a name="pipeline"></a>
 Please firstly download [GNorm2](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz) to your local.
 Below are the well-trained models (i.e., PubmedBERT/Bioformer) for Gene NER and Species Assignment.
+
 Models for Gene NER:
 - gnorm_trained_models/geneNER/GeneNER-PubmedBERT.h5
 - gnorm_trained_models/geneNER/GeneNER-Bioformer.h5
+
 Models for Species Assignment:
 - gnorm_trained_models/SpeAss/SpeAss-PubmedBERT.h5
 - gnorm_trained_models/SpeAss/SpeAss-Bioformer.h5
