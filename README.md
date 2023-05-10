@@ -1,6 +1,6 @@
 # GNorm2
 ***
-GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage. ([Download GNorm2 here](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz) , [Download examples for testing](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/examples.tar.gz))
+GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage. ([Download GNorm2 here](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz))
 
 ## Content
 - [Dependency package](#package)
@@ -69,7 +69,12 @@ The parameters of the input/output folders:
 
 [BioC-XML](bioc.sourceforge.net) or [PubTator](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/Format.html) formats are both avaliabel to GNorm2.
 
-1. Run GNorm2
+1. Preparing the files for process
+
+GNorm2 is designed to process various file in structured formats such as [BioC-XML](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/research/bionlp/APIs/BioC-PMC/) and PubTator.
+Please download the example files for testing ([Example].(https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/examples.tar.gz))
+
+2. Run GNorm2
 
 Run Example:
 
