@@ -72,7 +72,7 @@ The parameters of the input/output folders:
 1. Preparing the files for process
 
 GNorm2 is designed to process various file in structured formats such as BioC-XML and PubTator.
-Please download the example files ([Example](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/examples.tar.gz)) for testing.
+Please download the example files ([Example](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/examples.tar.gz)) and copy the files into the input folder for testing.
 
 2. Run GNorm2
 
