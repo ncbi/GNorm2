@@ -1,6 +1,6 @@
 # GNorm2
 ***
-GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage. ([Download GNorm2 here](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz))
+GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage. ([Download GNorm2 here](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz) [Download examples for testing](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/examples.tar.gz))
 
 ## Content
 - [Dependency package](#package)
