@@ -16,8 +16,10 @@ The codes have been tested using Python3.8/3.9 on CentOS and uses the following 
 
 To install all dependencies automatically using the command:
 
-    $ pip install -r requirements.txt
-
+    $ python3.9 -m venv env39
+    $ source env39/bin/activate
+    $ python3.9 -m pip install --upgrade pip
+    $ pip3 install -r requirements.txt
 
 ## Introduction of folders
 <a name="intro"></a>
