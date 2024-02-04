@@ -1,0 +1,7 @@
+tensorflow==2.8
+transformers==4.37.2
+stanza==1.4.0
+spacy==3.2.4
+bioc==2.0.post4
+spacy==3.2.4
+protobuf==3.20.1
