@@ -1,6 +1,6 @@
 # GNorm2
 ***
-GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage. ([Download GNorm2 here](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz))
+GNorm2 is a gene name recognition and normalization tool with optimized functions and customizable configuration to the user preferences. The GNorm2 integrates multiple deep learning-based methods and achieves state-of-the-art performance. GNorm2 is freely available to download for stand-alone usage. ([Download GNorm2 here](https://ftp.ncbi.nlm.nih.gov/pub/lu/GNorm2/GNorm2.tar.gz))
 
 ## Content
 - [Dependency package](#package)
@@ -53,7 +53,7 @@ To install all dependencies automatically using the command:
 
 ## Running GNorm2
 <a name="pipeline"></a>
-Please firstly download [GNorm2](https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/tmTools/download/GNorm2/GNorm2.tar.gz) to your local.
+Please firstly download [GNorm2](https://ftp.ncbi.nlm.nih.gov/pub/lu/GNorm2/GNorm2.tar.gz) to your local.
 Below are the well-trained models (i.e., PubmedBERT/Bioformer) for Gene NER and Species Assignment.
 
 Models for Gene NER:
